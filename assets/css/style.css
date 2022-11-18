@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #2487ce;
+  color: #460465;
   text-decoration: none;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #4e1568;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #460465;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -135,7 +135,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  border-color: #fff;
+  border-color: #000;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
@@ -564,7 +564,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8fbfe;
+  background-color: #ffe7ff;
 }
 
 .section-title {
@@ -578,13 +578,13 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  color: #460465;
 }
 
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: #616161;
 }
 
 /*--------------------------------------------------------------
@@ -614,7 +614,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #2487ce;
+  color: #4e1568;
   line-height: 1;
 }
 
@@ -662,7 +662,7 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 700;
-  color: #124265;
+  color: #460465;
   margin-left: 80px;
   margin: auto;
 }
@@ -672,7 +672,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #1e6ca6;
+  color: #4f186f;
 }
 
 /*--------------------------------------------------------------
@@ -937,7 +937,7 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
-.services .icon-box .icon {
+.services .icon-box .collab {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -1325,7 +1325,7 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 4px;
-  background: #fff;
+  background: #ffc9ff;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
@@ -1348,16 +1348,18 @@ section {
   align-items: center;
   justify-content: center;
 }
-
+.team .c {
+  margin: 0 auto;
+}
 .team .member .social a {
   transition: color 0.3s;
-  color: #124265;
+  color: #460465;
   margin: 0 10px;
   display: inline-block;
 }
 
 .team .member .social a:hover {
-  color: #2487ce;
+  color: #4f186f;
 }
 
 .team .member .social i {
@@ -1374,14 +1376,14 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #124265;
+  color: #460465;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #000;
 }
 
 .team .member .member-info p {
@@ -1414,12 +1416,12 @@ section {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #124265;
+  color: #460465;
 }
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #2487ce;
+  color: #4e1568;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1432,7 +1434,7 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: #fdb0fd;
   font-size: 16px;
   font-weight: 300;
 }
@@ -1480,7 +1482,7 @@ section {
 }
 
 .pricing .featured {
-  background: #2487ce;
+  background: #4f186f;
 }
 
 .pricing .featured h3,
@@ -1546,7 +1548,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #87c1ea;
+  color: #f37af3;
 }
 
 .faq .faq-list .icon-show,
@@ -1598,7 +1600,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #460465;
   float: left;
   width: 44px;
   height: 44px;
@@ -1615,14 +1617,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #124265;
+  color: #460465;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #217bbc;
+  color: #4e1568;
 }
 
 .contact .info .email,
@@ -1633,7 +1635,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #4e1568;
   color: #fff;
 }
 
@@ -1801,15 +1803,17 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
+  color: #8f8f8f;
   font-size: 14px;
-  background: #f8fbfe;
+  /*background: #f8fbfe; */
+  background: #000;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #000;
+  color: #fff;
 }
 
 #footer .footer-top .footer-contact {
@@ -1829,13 +1833,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #777777;
+  color: #fff;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #124265;
+  color: #460465;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1852,7 +1856,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #2487ce;
+  color: #460465;
   font-size: 18px;
   line-height: 1;
 }
@@ -1876,7 +1880,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #2487ce;
+  color: #4e1568;
 }
 
 #footer .footer-newsletter {
@@ -1916,7 +1920,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #2487ce;
+  background: #460465;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1924,19 +1928,20 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #3194db;
+  background: #4e1568;
 }
 
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #444444;
+  color: #8f8f8f;;
+  background: #000;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #460465;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1949,7 +1954,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
+  background: #4e1568;
   color: #fff;
   text-decoration: none;
 }
