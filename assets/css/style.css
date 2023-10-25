@@ -167,7 +167,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -291,7 +291,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fdb0fd;
@@ -537,7 +537,7 @@ h6 {
     font-size: 18px;
     line-height: 24px;
   }
-  
+
 }
 
 @media (max-width: 400px) {
@@ -1847,6 +1847,7 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
+
 
 #footer .footer-top .footer-links ul {
   list-style: none;

@@ -34,9 +34,9 @@
     }
   }
   const textDisplay = document.getElementById('terminal')
-const phrases = ['ecHERsion 2022']
+const phrases = ['ecHERsion 2023']
 let i = 0
-let j = 0 
+let j = 0
 let currentPhrase = ['r']
 let isDeleting = false
 let isEnd = false
@@ -81,7 +81,7 @@ function loop () {
 
 loop()
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -212,7 +212,7 @@ loop()
   }
 
   /**
-   * Initiate glightbox 
+   * Initiate glightbox
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
@@ -278,7 +278,7 @@ loop()
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
@@ -314,7 +314,7 @@ loop()
   });
 
   /**
-   * Initiate Pure Counter 
+   * Initiate Pure Counter
    */
   new PureCounter();
 
