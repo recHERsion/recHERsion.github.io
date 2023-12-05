@@ -12,6 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+
 }
 
 a {
@@ -951,6 +952,18 @@ section {
   transition: ease-in-out 0.3s;
   position: relative;
 }
+.collab1{
+  width: 20vw;
+  height: auto;
+  opacity: 70%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+  border-radius: 10%;
+}
 
 .services .icon-box .icon i {
   font-size: 36px;
@@ -1009,6 +1022,12 @@ section {
 
 .services .iconbox-orange:hover .icon i {
   color: #fff;
+}
+.sponsor{
+  background-color: red;
+}
+#but1:hover{
+  background-color: #460465;
 }
 
 .services .iconbox-orange:hover .icon path {
