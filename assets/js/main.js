@@ -34,7 +34,7 @@
     }
   }
   const textDisplay = document.getElementById('terminal')
-const phrases = ['ecHERsion 2023']
+const phrases = ['ecHERsion 2024']
 let i = 0
 let j = 0
 let currentPhrase = ['r']
